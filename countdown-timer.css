@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: hsla(120, 6%, 90%, 1); 
+}
+.TodaysDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    height: 40vh;
+}
+.TodaysDate p{
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    color: greenyellow;
+}
+.TodaysDate h1{
+    margin-top: 1rem;
+    padding-left: 4.5rem;
+    font-size: 5rem;
+    border: 3px solid rgb(84, 219, 84);
+    color: green;
+    border-radius: 0px 40px 0px 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    height: 10vh;
+    color: greenyellow;
+}
+.count-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+.count-down p{
+    margin: 1rem;
+    font-size: 9rem;
+    border: 3px solid rgb(84, 219, 84);
+    border-radius: 0px 40px 0px 40px;
+    font-family: 'Orbitron', sans-serif;
+    color: green;
+}
+
